@@ -1,0 +1,23 @@
+{
+  "_doc": "Registry of the cloud-me-___ top hub (the cloud-me project: the owner's configs across the cloud). A SUBSET of _git-repos-master/repos.json listing only the two sub-hubs cloud-me-pub-___ and cloud-me-pvt-___; their members are listed in their own hubs, so no private repository name appears here. Identical name/url/private/doc fields to that superset; the two must not disagree. This repo is an INDEX, not a container - see clone.sh for the clone/link model.",
+  "_schema": "front-repos/v1",
+  "base_dir_doc": "Clones live outside this index, as siblings in $CLOUD_GIT_BASE (default ~/git). This repo holds only committed symlinks pointing at them.",
+  "base_dir_default": "~/git",
+  "_visibility_doc": "private:true repos require SSH access configured for this GitHub account to clone.",
+  "groups": {},
+  "repos": [
+    {
+      "name": "cloud-me-pub-___",
+      "url": "git@github.com:diegonmarcos/cloud-me-pub-___.git",
+      "private": false,
+      "doc": "Hub of the public cloud-me family (Cloud-Me-Pub): the cloud-me-pub-profiles hub and cloud-me-pub-shared (the pub data repo is archived). Its own repos.json subset plus committed symlinks; lists no private repo. Created 2026-10-28."
+    },
+    {
+      "name": "cloud-me-pvt-___",
+      "url": "git@github.com:diegonmarcos/cloud-me-pvt-___.git",
+      "private": true,
+      "doc": "Hub of the private cloud-me family (Cloud-Me-Pvt): its own repos.json subset plus committed symlinks to the private cloud-me repos. Private repo. Created 2026-10-28."
+    }
+  ],
+  "_root_doc": "No entries carry a group field - both sub-hubs link at the root of this index."
+}
