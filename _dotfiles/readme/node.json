@@ -5,6 +5,7 @@
   "label": "cloud-me-___",
   "code": "1.2.0",
   "kind": "hub",
+  "variant": "hub",
   "description": "cloud-me hub: the owner's configs across the cloud — links the cloud-me-pub-___ and cloud-me-pvt-___ hubs",
   "visibility": "public",
   "url": "https://github.com/diegonmarcos/cloud-me-___",
