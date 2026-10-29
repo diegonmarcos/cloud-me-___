@@ -15,7 +15,7 @@
     {
       "name": "cloud-me-pvt-___",
       "url": "git@github.com:diegonmarcos/cloud-me-pvt-___.git",
-      "private": true,
+      "private": false,
       "doc": "Hub of the private cloud-me family (Cloud-Me-Pvt): its own repos.json subset plus committed symlinks to the private cloud-me repos. Private repo. Created 2026-10-28."
     }
   ],
