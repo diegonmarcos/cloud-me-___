@@ -1,0 +1,5 @@
+{
+  "title": "cloud-me-___",
+  "intro": "Top hub of the **cloud-me** project: the owner's configs across the cloud. Same model as `cloudy-___`, `CG-___` and `Fin-CM-___`. This repo is an INDEX, not a container: it holds `repos.json` (a subset of [_git-repos-master](https://github.com/diegonmarcos/_git-repos-master)/repos.json), `clone.sh` and one committed relative symlink per member (`<member> -> ../<member>`). The clones themselves live as siblings in `~/git/`.\n\nIt lists only the two sub-hubs. Their members are listed in each sub-hub, so no private repository name appears here.",
+  "sections": []
+}

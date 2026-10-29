@@ -1,0 +1,62 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "cloud-me-___",
+  "label": "cloud-me-___",
+  "code": "1.2.0",
+  "kind": "hub",
+  "description": "cloud-me hub: the owner's configs across the cloud — links the cloud-me-pub-___ and cloud-me-pvt-___ hubs",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/cloud-me-___",
+  "developer": "Leaf.y",
+  "farm": "1.2.Cloud-me",
+  "breadcrumb": [
+    {
+      "code": "1",
+      "kind": "area",
+      "label": "Unix",
+      "icon": "🐧"
+    },
+    {
+      "code": "1.2",
+      "kind": "project",
+      "label": "Cloud-Me",
+      "icon": "🙋"
+    }
+  ],
+  "hub": {
+    "name": "_git-repos-master",
+    "code": "0",
+    "url": "https://github.com/diegonmarcos/_git-repos-master"
+  },
+  "base_dir": "git",
+  "members": [
+    {
+      "code": "1.2.1.0",
+      "name": "cloud-me-pub-___",
+      "url": "https://github.com/diegonmarcos/cloud-me-pub-___",
+      "visibility": "public",
+      "kind": "hub",
+      "description": "Cloud-Me-Pub hub: index of the public cloud-me family"
+    },
+    {
+      "code": "1.2.2.0",
+      "name": "cloud-me-pvt-___",
+      "url": "https://github.com/diegonmarcos/cloud-me-pvt-___",
+      "visibility": "public",
+      "kind": "hub",
+      "description": "Cloud-Me-Pvt hub: index of the private cloud-me family"
+    }
+  ],
+  "tree": [
+    "├── .claude/",
+    "│   └── agents/",
+    "├── .githooks/",
+    "├── .github/",
+    "│   └── workflows/",
+    "├── .obsidian/",
+    "├── .vscode/",
+    "└── 0_hub/",
+    "    └── _git-repos-master (submodule)"
+  ]
+}
