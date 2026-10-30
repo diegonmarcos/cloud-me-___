@@ -1,5 +1,5 @@
 {
-  "_doc": "Registry of the cloud-me-___ top hub (the cloud-me project: the owner's configs across the cloud). A SUBSET of _git-repos-master/repos.json listing only the two sub-hubs cloud-me-pub-___ and cloud-me-pvt-___; their members are listed in their own hubs, so no private repository name appears here. Identical name/url/private/doc fields to that superset; the two must not disagree. This repo is an INDEX, not a container - see clone.sh for the clone/link model.",
+  "_doc": "Registry of the cloud-me-___ top hub (the cloud-me project: the owner's configs across the cloud). A SUBSET of _git-repos-master/0_registry/repos.json listing only the two sub-hubs cloud-me-pub-___ and cloud-me-pvt-___; their members are listed in their own hubs, so no private repository name appears here. Identical name/url/private/doc fields to that superset; the two must not disagree. This repo is an INDEX, not a container - see clone.sh for the clone/link model.",
   "_schema": "front-repos/v1",
   "base_dir_doc": "Clones live outside this index, as siblings in $CLOUD_GIT_BASE (default ~/git). This repo holds only committed symlinks pointing at them.",
   "base_dir_default": "~/git",
